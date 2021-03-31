@@ -1,0 +1,15 @@
+[package]
+name = "hypermachines"
+description = "Hostcall wrappers for working with Hypercores inside Hypermachines"
+version = "0.1.0"
+authors = ["Andrew Osheroff <andrewosh@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hypermachines_sys = "0.1"
+serde = "1.0.116"
+serde_derive = "1.0.116"
+serde_bytes = "0.11.5"
